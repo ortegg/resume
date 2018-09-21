@@ -70,7 +70,7 @@ a:hover {
     padding: 10px;
     display: inline-block;
     border-style: solid;
-    border-color: #457B9D;
+    border-color: black;
 }
 
 /* Header & Footer Styles
@@ -95,6 +95,11 @@ footer {
 .contact-info a {
     padding: 10px;
     display: inline-block;
+}
+.contact-info a:hover {
+    padding: 10px;
+    display: inline-block;
+    color: black;
 }
 /* Navigation
 ------------------------------*/
