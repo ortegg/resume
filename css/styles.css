@@ -63,6 +63,13 @@ a:hover {
     padding: 10px;
     display: inline-block;
 }
+.btn:hover {
+    text-decoration: none;
+    color: black;
+    background: white;
+    padding: 10px;
+    display: inline-block;
+}
 
 /* Header & Footer Styles
 ------------------------------*/
