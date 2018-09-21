@@ -1,0 +1,130 @@
+/* Color Palette
+rgb(238, 88, 100) - red
+#F1FAEE - Honeydew (creme)
+#A8DADC - Light Blue
+#457B9D - Queen Blue (ash blue)
+#1D3557 - Space Cadet (dark blue)
+*/
+
+/* Global Styles
+------------------------------*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+h1, h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+}
+h1 {
+    font-size: 42px;
+}
+h2{
+    margin-top: 0;
+    font-size: 35px;
+}
+h3 {
+    margin: 0;
+}
+a {
+    color: #457B9D;
+}
+a:hover {
+    text-decoration: none;
+}
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 60px 50px;
+    overflow: auto;
+}
+.col-narrow {
+    width: 30%;
+    float: left;
+}
+.col-wide {
+    width: 70%;
+    float: left; 
+    padding-left: 20px;  
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.btn {
+    text-decoration: none;
+    color: white;
+    background: #457B9D;
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Header & Footer Styles
+------------------------------*/
+header, footer {
+    background: #F1FAEE;
+}
+.profile-img {
+    border-radius: 10px;
+}
+header {
+    text-align: center;
+    padding-top: 50px;
+}
+header h1, header h2 {
+    margin: 0;
+}
+/* Footer*/
+footer {
+    text-align: center;
+}
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+}
+/* Navigation
+------------------------------*/
+nav {
+    text-align: center;
+    background: white;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* Work Experience Styles
+------------------------------*/
+.work {
+    background: rgb(238, 88, 100);
+}
+h3 ~ p {
+    margin: 0;
+}
+.job-description{
+    margin-bottom: 25px;
+}
+.job-description p:first-of-type {
+    margin-top: 0;
+}
+
+/* Education Styles
+------------------------------*/
+.education {
+    background: linear-gradient(rgba(168, 218, 220, 0.8), rgba(168, 218, 220, 0.8)), url(../images/portland.jpg) no-repeat fixed;
+    background-size: cover;
+}
+p + h3 {
+    margin-top: 25px;
+}
