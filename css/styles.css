@@ -44,15 +44,6 @@ a:hover {
     padding: 60px 50px;
     overflow: auto;
 }
-.col-narrow {
-    width: 30%;
-    float: left;
-}
-.col-wide {
-    width: 70%;
-    float: left; 
-    padding-left: 20px;  
-}
 .uppercase {
     text-transform: uppercase;
 }
@@ -79,7 +70,7 @@ header, footer {
     background: #F1FAEE;
 }
 .profile-img {
-    border-radius: 10px;
+    border-radius: 50%;
 }
 header {
     text-align: center;
@@ -141,4 +132,26 @@ h3 ~ p {
 }
 p + h3 {
     margin-top: 25px;
+}
+
+/* Media Queries
+------------------------------*/
+@media (min-width: 850px){
+    .col-narrow {
+        width: 30%;
+        float: left;
+    }
+    .col-wide {
+        width: 70%;
+        float: left; 
+        padding-left: 20px;  
+    }
+}
+@media (max-width:849px){
+    header{
+        text-align: center;
+    }
+    .profile-img {
+        width: 200px;
+    }
 }
